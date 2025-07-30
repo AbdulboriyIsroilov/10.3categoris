@@ -449,4 +449,24 @@ class AppList {
       "image": "assets/Images/RecipesByCategories/Seafood/spanish_paella.png",
     },
   ];
+  static const List ingredients = [
+    "1 cup all-purpose flour",
+    "2 tablespoons granulated sugar",
+    "1 teaspoon baking powder",
+    "1/2 teaspoon baking soda",
+    "1/4 teaspoon salt",
+    "1 cup buttermilk (or regular milk)",
+    "1 large egg",
+    '2 tablespoons unsalted butter, melted',
+    "Additional butter or oil for cooking",
+    "1 cup all-purpose flour",
+    "2 tablespoons granulated sugar",
+    "1 teaspoon baking powder",
+    "1/2 teaspoon baking soda",
+    "1/4 teaspoon salt",
+    "1 cup buttermilk (or regular milk)",
+    "1 large egg",
+    '2 tablespoons unsalted butter, melted',
+    "Additional butter or oil for cooking",
+  ];
 }

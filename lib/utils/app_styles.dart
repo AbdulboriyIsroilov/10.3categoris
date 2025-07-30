@@ -41,5 +41,24 @@ class AppStyles {
       fontWeight: FontWeight.w400,
       color: AppColors.white
   );
+  static TextStyle follow = TextStyle(
+      fontSize: 15,
+      fontWeight: FontWeight.w500,
+      color: AppColors.fif
+  );
+  static TextStyle loginIn = TextStyle(
+      fontSize: 20,
+      fontWeight: FontWeight.w600,
+  );
+  static TextStyle forgot = TextStyle(
+    fontSize: 14,
+    fontWeight: FontWeight.w600,
+    color: AppColors.oq,
+  );
+  static TextStyle wtext = TextStyle(
+    fontSize: 20,
+    fontWeight: FontWeight.w600,
+    color: AppColors.navigationBar,
+  );
 
 }

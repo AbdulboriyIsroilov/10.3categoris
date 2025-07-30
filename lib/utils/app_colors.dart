@@ -9,7 +9,7 @@ class AppColors {
   static const Color oq = Color(0xFFFFFFFF);
   static const Color qora = Color(0xFF3E2823);
   static const Color fif = Color(0xFFEC888D);
-  static const Color white = Color(0xFFFFFFFF);
+  static const Color white = Color(0xFFFFFDF9);
   static const Color black = Color(0xFF1C0F0D);
 
 }

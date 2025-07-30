@@ -8,25 +8,21 @@ class FootsQolip extends StatelessWidget {
     super.key,
     required this.image,
     required this.title,
-    required this.index,
-    required this.categoryid,
+    required this.id,
   });
 
   final String image, title;
-  final int index;
-  final int categoryid;
+  final int id;
 
   @override
   Widget build(BuildContext context) {
     return InkWell(
       onTap: () {
-        Navigator.of(
-          context,
-        ).push(
+        Navigator.of(context).push(
           MaterialPageRoute(
             builder: (context) => ExpordPage(
-              bottomindex: index,
-              categoryId: categoryid,
+              categoryId: id,
+              title: title,
             ),
           ),
         );

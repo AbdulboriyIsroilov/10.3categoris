@@ -19,7 +19,7 @@ class _LikeState extends State<Like> {
   bool like = false;
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext _context) {
     return SizedBox(
       width: 28.w,
       height: 28.h,

@@ -23,7 +23,7 @@ class _AppBarPageState extends State<AppBarPage> {
   String bartitle = "Breakfast";
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext _context) {
     return AppBar(
       backgroundColor: AppColors.bekraunt,
       leading: IconButton(

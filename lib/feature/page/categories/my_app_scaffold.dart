@@ -30,7 +30,7 @@ class _MyAppScaffoldState extends State<MyAppScaffold> {
   int navigator = 0;
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext _context) {
     return FutureBuilder(
       future: fetchCategories(),
       builder: (context, snapshot) {
@@ -48,6 +48,7 @@ class _MyAppScaffoldState extends State<MyAppScaffold> {
           );
         } else if (snapshot.hasData) {
           return Scaffold(
+            extendBody: true,
             backgroundColor: AppColors.bekraunt,
             appBar: AppBar(
               backgroundColor: AppColors.bekraunt,
@@ -104,8 +105,7 @@ class _MyAppScaffoldState extends State<MyAppScaffold> {
                 return FootsQolip(
                   image: snapshot.data![index]["image"],
                   title: snapshot.data![index]["title"],
-                  categoryid: snapshot.data![index]["id"],
-                  index: index,
+                  id: snapshot.data![index]["id"],
                 );
               },
             ),
