@@ -31,4 +31,15 @@ class AppStyles {
     fontSize: 12,
     color: AppColors.fif,
   );
+  static TextStyle footName = TextStyle(
+    fontSize: 20,
+    fontWeight: FontWeight.w500,
+    color: AppColors.white,
+  );
+  static TextStyle string = TextStyle(
+      fontSize: 12,
+      fontWeight: FontWeight.w400,
+      color: AppColors.white
+  );
+
 }

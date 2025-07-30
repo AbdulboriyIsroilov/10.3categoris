@@ -4,7 +4,7 @@ import 'package:categories_page/utils/app_svg.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
-import 'utils/app_list.dart';
+import '../utils/app_list.dart';
 
 class AppBarPage extends StatefulWidget implements PreferredSizeWidget {
   const AppBarPage({

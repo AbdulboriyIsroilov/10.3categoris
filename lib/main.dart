@@ -1,4 +1,5 @@
-import 'package:categories_page/expord_page.dart';
+import 'package:categories_page/feature/page/categories/expord_page.dart';
+import 'package:categories_page/feature/page/categories/my_app_scaffold.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
       designSize: Size(430, 932),
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        home: ExpordPage(),
+        home: MyAppScaffold(),
       ),
     );
   }
