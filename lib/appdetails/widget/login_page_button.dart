@@ -10,11 +10,14 @@ class LoginPageButton extends StatelessWidget {
     this.backraundcolor = AppColors.appbarsvg,
     this.foregraundcolor = AppColors.fif,
     required this.onPressed,
+    this.weth = 207,
+    this.hights = 45,
   });
 
   final String text;
   final Color backraundcolor, foregraundcolor;
   final VoidCallback onPressed;
+  final double weth, hights;
 
   @override
   Widget build(BuildContext context) {
@@ -22,12 +25,12 @@ class LoginPageButton extends StatelessWidget {
       style: TextButton.styleFrom(
         backgroundColor: backraundcolor,
         foregroundColor: foregraundcolor,
-        fixedSize: Size(207.w, 45.h),
+        fixedSize: Size(weth.w, hights.h),
       ),
       onPressed: onPressed,
       child: Text(
         text,
-        style: AppStyles.loginIn,
+        style: AppStyles.w600s20not,
       ),
     );
   }

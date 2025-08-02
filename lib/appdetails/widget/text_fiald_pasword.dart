@@ -9,9 +9,12 @@ class TextFialdPasword extends StatefulWidget {
   const TextFialdPasword({
     super.key,
     required this.controller,
+    required this.text,
+    required this.hint,
   });
 
   final TextEditingController controller;
+  final String text, hint;
 
   @override
   State<TextFialdPasword> createState() => _TextFialdPaswordState();
@@ -27,7 +30,7 @@ class _TextFialdPaswordState extends State<TextFialdPasword> {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text(
-          "Password",
+          widget.text,
           style: AppStyles.string,
         ),
         TextField(
@@ -45,7 +48,7 @@ class _TextFialdPaswordState extends State<TextFialdPasword> {
               borderRadius: BorderRadius.circular(18),
               borderSide: BorderSide.none,
             ),
-            hintText: "Password",
+            hintText: widget.hint,
             hintStyle: AppStyles.follow,
             suffixIcon: IconButton(
               onPressed: () {

@@ -7,9 +7,12 @@ class TextFieldNotPasword extends StatelessWidget {
   const TextFieldNotPasword({
     super.key,
     required this.controller,
+    required this.text,
+    required this.hint,
   });
 
   final TextEditingController controller;
+  final String text, hint;
 
   @override
   Widget build(BuildContext context) {
@@ -18,7 +21,7 @@ class TextFieldNotPasword extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text(
-          "Email",
+          text,
           style: AppStyles.string,
         ),
         TextField(
@@ -35,7 +38,7 @@ class TextFieldNotPasword extends StatelessWidget {
               borderRadius: BorderRadius.circular(18),
               borderSide: BorderSide.none,
             ),
-            hintText: "example@example.com",
+            hintText: hint,
             hintStyle: AppStyles.follow,
           ),
         ),

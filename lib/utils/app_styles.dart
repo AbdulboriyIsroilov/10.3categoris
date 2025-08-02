@@ -49,6 +49,7 @@ class AppStyles {
   static TextStyle loginIn = TextStyle(
       fontSize: 20,
       fontWeight: FontWeight.w600,
+    color: AppColors.oq
   );
   static TextStyle forgot = TextStyle(
     fontSize: 14,
@@ -59,6 +60,25 @@ class AppStyles {
     fontSize: 20,
     fontWeight: FontWeight.w600,
     color: AppColors.navigationBar,
+  );
+  static TextStyle w600s20 = TextStyle(
+    fontSize: 20,
+    fontWeight: FontWeight.w600,
+    color: AppColors.black,
+  );
+  static TextStyle stringblack = TextStyle(
+      fontSize: 12,
+      fontWeight: FontWeight.w400,
+      color: AppColors.black
+  );
+  static TextStyle stringpink  = TextStyle(
+      fontSize: 12,
+      fontWeight: FontWeight.w400,
+      color: AppColors.navigationBar
+  );
+  static TextStyle w600s20not = TextStyle(
+    fontSize: 20,
+    fontWeight: FontWeight.w600,
   );
 
 }

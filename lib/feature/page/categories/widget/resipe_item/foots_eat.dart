@@ -22,7 +22,7 @@ class FootsEat extends StatelessWidget {
         Navigator.of(context).push(
           MaterialPageRoute(
             builder: (context) => FootEat(
-              list: recipe,
+              id: recipe["id"],
               appbartitle: appbartitle,
             ),
           ),
