@@ -42,7 +42,6 @@ class _MyAppScaffoldState extends State<MyAppScaffold> {
                       backgroundColor: AppColors.bekraunt,
                       leading: IconButton(
                         onPressed: () {
-                          Navigator.of(context).pop();
                         },
                         icon: SvgPicture.asset(AppSvg.backArrow),
                       ),
@@ -67,7 +66,8 @@ class _MyAppScaffoldState extends State<MyAppScaffold> {
                       gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                         crossAxisCount: 2,
                         crossAxisSpacing: 38.9.w,
-                        childAspectRatio: 1 / 1.19,
+                        mainAxisSpacing: 8.h,
+                        mainAxisExtent: 171.55.h
                       ),
                       itemCount: vm.mycategoris.length,
                       itemBuilder: (context, index) {

@@ -76,9 +76,28 @@ class AppStyles {
       fontWeight: FontWeight.w400,
       color: AppColors.navigationBar
   );
+  static TextStyle w600s25w = TextStyle(
+    fontSize: 25,
+    fontWeight: FontWeight.w600,
+    color: AppColors.texts,
+  );
   static TextStyle w600s20not = TextStyle(
     fontSize: 20,
     fontWeight: FontWeight.w600,
   );
-
+  static TextStyle w600s20w = TextStyle(
+    fontSize: 20,
+    fontWeight: FontWeight.w600,
+    color: AppColors.texts,
+  );
+  static TextStyle w500s16w = TextStyle(
+    fontSize: 16,
+    fontWeight: FontWeight.w500,
+    color: AppColors.oq
+  );
+  static TextStyle w400s13w = TextStyle(
+    fontSize: 13,
+    fontWeight: FontWeight.w400,
+    color: AppColors.texts
+  );
 }

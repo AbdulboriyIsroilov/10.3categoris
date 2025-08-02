@@ -1,6 +1,5 @@
 import 'package:categories_page/feature/page/categories/widget/manegers/foot_eat_view_model.dart';
 import 'package:categories_page/utils/app_colors.dart';
-import 'package:categories_page/utils/app_list.dart';
 import 'package:categories_page/utils/app_styles.dart';
 import 'package:categories_page/utils/app_svg.dart';
 import 'package:flutter/material.dart';
